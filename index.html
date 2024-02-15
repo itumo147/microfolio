@@ -3,84 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>my portfolio page</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="./styles/main.css">
 
-    <!-- font awesome icon link -->
-    <script src="https://kit.fontawesome.com/b47d5940db.js" crossorigin="anonymous"></script>
-    
-    <title>microfolio</title>
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="brand">
-            <img src="./IMAGE/AMIKE.png" alt="brand logo">
+    <header class="horizontal hello">
+        <div class="logo">
+         <img class="brandlogo" src="./IMAGE/AMIKE.png" alt="">
         </div>
-
-        <nav id="navbar">
-            <ul>
-                <li><a href="#home">home</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#skills">skills</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#blog">blog</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+        
+        <nav class="menu">
+         <ul class="horizontal">
+            <li class="navitem"><a href="#Home">Home</a></li>
+            <li class="navitem"><a href="#Services">Services</a></li>
+            <li class="navitem"><a href="#About">About</a></li>
+            <li class="navitem"><a href="#Skills">Skills</a></li>
+            <li class="navitem"><a href="#Portfolio">Portfolio</a></li>
+            <li class="navitem"><a href="#Blog">Blog</a></li>
+            <li class="navitem"><a href="#Contact">Contact</a></li>
+         </ul>
         </nav>
     </header>
+ <main>
+    <section id="Home" class="horizontal">
+        <div class="left">
+            <div id="icons" class="horizontal">
+                <div class="babies"><i class="fa fa-facebook"></i>
+                </div>
+                <div class="babies"><i class="fa fa-twitter"></i>
+                </div>
+                <div class="babies"><i class="fa fa-pinterest"></i>
+                </div>
+                <div class="babies"><i class="fa fa-instagram"></i>
+                </div>
+                <div class="babies"><i class="fa fa-behance"></i></div>
+             </div>
 
-    <main>
-    <!-- home section -->
-    <section id="home"></section>
-    <div id="lefticon">
-        <div id="socialicon">
-            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
-            <div class="icon"><i class="fa-brands fa-x-twitter"></i>
-                <br>
-                <div class="fa-brands fa-square-instagram"></i></div>
-                <br>
-            <div class="icon"><i class="fa-brands fa-square-behance"></i></div>
-            <br>
-            <div class="icon"><i class="fa-brands fa-pinterest"></i></div>
-            <br>
-            <div class="icon"></div>
-        </div>
-        <div id="introtext">
-            <h1>my name is martyns ahunwa</h1>
-            <p>martyns ahunwa is a wed designer from imo state</p>
-        </div>
-        <div id="actionbotton">
-            <button>my portfolio</button>
-            <br>
-            <button>contact me</button>
-        </div>
+             <div class="words">
+                <h1>I am  martyns</h1>
+                <p class="descriptions">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit . Expedita id, debitis .</p>
+             </div>
 
+             <div class="buttons">
+                <button class="portfoliobtn">My portfolio</button>
+                <button class="playbtn"><i class="fa fa-play"></i></button>
+             </div>
+        </div>
+        <div class="right">
+            <img src="./IMAGE/man-01.png"  id="whiteman" alt="A white man smiling ">
+        
+        </div>
     </div>
-    <div id="righticon">
-        <img src="./IMAGE/man-01.png" alt="amike picture">
-    </div>
-
-
-    <!-- service section -->
-    <section id="service"></section>
-
-    <!-- about section -->
-    <section id="about"></section>
-
-    <!-- skills section -->
-    <section id="skills"></section>
-
-    <!-- portfolio section -->
-    <section id="portfolio"></section>
-
-    <!-- blog section -->
-    <section id="blog"></section>
-
-    <!-- contact section -->
-    <section id="contact">
-        <h2>contact us</h2>
     </section>
-    </main>
 
-    <footer></footer>
+    <section id="Services">
+        <div class="text-center title">
+            <p class="red">SERVICES</p>
+            <h2>My Services</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br>industry. Lorem Ipsum standard dummy text.</p>
+
+           
+        </div>
+        
+      
+        <div class="cardees">
+            <div class="card">
+                <i class="fa fa-github"></i>
+                <h2>Web Development</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+
+            <div class="card">
+                <i class="fa fa-codepen"></i>
+                <h2>Web Design</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-file-video-o"></i>
+                <h2>Video Editing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-apple"></i>
+                <h2>App developing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+            <div class="card">
+                <i class="fa fa-yoast"></i>
+                <h2>SEO Expart</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing typesetting industry. simply dummy</p>
+            </div>
+        </div>
+    </section>
+  </main>
+
 </body>
 </html>
