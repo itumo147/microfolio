@@ -234,3 +234,47 @@ nav .navitem {
     padding: 0px;
   }
 }/*# sourceMappingURL=main.css.map */
+
+#about{
+  background-color: #24263b;
+  padding:20px;
+
+}
+.about{
+  margin-bottom: 70px;
+}
+.about h1{
+ font-size: 60px;
+ color: #fff;
+ text-align: center;
+margin-top: 60px;
+}
+.about p{
+  color:white;
+  text-justify: center;
+  text-align: center;
+  
+}
+
+#logo{
+  display: flex;
+  padding: 0 20px 0 20px;
+
+}
+
+.left{
+  width: 2000px;
+
+}
+.left img{
+  width: 100%;
+}
+
+.right{
+  padding-left: 400px;
+
+}
+
+.right h3{
+  color: #e8e9f2;
+}
